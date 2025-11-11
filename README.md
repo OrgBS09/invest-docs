@@ -20,3 +20,4 @@
 - [reference/](projects/accounting/reference/)
 - sync trigger 2025-11-11T22:37:32+01:00
 - manual sync 2025-11-11T22:54:32+01:00
+- sync 2025-11-12T00:21:17+01:00
