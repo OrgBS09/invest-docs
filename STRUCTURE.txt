@@ -1,0 +1,38 @@
+doc
+├── NEXT.md
+├── README.md
+├── README.md.bak
+├── STRUCTURE.txt
+├── adr
+│   └── 0001-repo-structure.md
+├── common
+│   ├── explanations
+│   ├── how-to
+│   ├── reference
+│   └── tutorials
+├── explanations
+│   └── .gitkeep
+├── how-to
+│   └── .gitkeep
+├── project-notes
+│   ├── CHAT-2025-11-11-invest-sync.md
+│   ├── COMMENT-2025-11-10.md
+│   ├── COMMENT-2025-11-12.md
+│   └── NEXT.md
+├── projects
+│   ├── accounting
+│   │   ├── explanations
+│   │   ├── how-to
+│   │   ├── reference
+│   │   └── tutorials
+│   └── invest
+│       ├── explanations
+│       ├── how-to
+│       ├── reference
+│       └── tutorials
+├── reference
+│   └── .gitkeep
+└── tutorials
+    └── .gitkeep
+
+22 directories, 13 files
