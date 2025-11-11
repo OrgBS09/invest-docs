@@ -1,0 +1,12 @@
+# Документация (Diátaxis)
+- tutorials/ — учебники
+- how-to/ — рецепты
+- explanations/ — пояснения
+- reference/ — справочник
+- adr/ — архитектурные решения
+<<<<<<< HEAD
+- project-notes/ — заметки и так далее
+=======
+- project-notes/ — заметки и NEXT
+- sync test from lab
+>>>>>>> c609e5b (docs: sync test from lab)

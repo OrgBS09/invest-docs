@@ -1,17 +1,20 @@
-# Документация (Diátaxis)
-- tutorials/ — учебники
-- how-to/ — рецепты
-- explanations/ — пояснения
-- reference/ — справочник
-- adr/ — архитектурные решения
-- project-notes/ — заметки и так далее
-- sync test from lab
-- sync ok 2025-11-10T22:48:45+01:00
-- sync ok 2025-11-10T23:07:52+01:00
-- sync ok 2025-11-10T23:33:49+01:00
-- sync ok 2025-11-10T23:43:15+01:00
-- sync ok 2025-11-10T23:56:58+01:00
-- lab→docs sync test 2025-11-11T00:10:42+01:00
-- docs sync check 2025-11-11T00:33:21+01:00
-- sync trigger 2025-11-11T00:52:15+01:00
-- ping 2025-11-11T01:44:06+01:00
+# Личная база (Diátaxis)
+
+## Общие
+- [tutorials/](common/tutorials/) — учебники
+- [how-to/](common/how-to/) — рецепты
+- [explanations/](common/explanations/) — пояснения
+- [reference/](common/reference/) — справочник
+
+## Проекты
+### Invest
+- [tutorials/](projects/invest/tutorials/)
+- [how-to/](projects/invest/how-to/)
+- [explanations/](projects/invest/explanations/)
+- [reference/](projects/invest/reference/)
+
+### Accounting
+- [tutorials/](projects/accounting/tutorials/)
+- [how-to/](projects/accounting/how-to/)
+- [explanations/](projects/accounting/explanations/)
+- [reference/](projects/accounting/reference/)
