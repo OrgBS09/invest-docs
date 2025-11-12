@@ -1,6 +1,6 @@
 # INDEX — RAW ссылки на документы
 
-_Автогенерация: 2025-11-12T18:48:13+01:00. Источник: invest-services/doc → Публикация: OrgBS09/invest-docs@main_
+_Автогенерация: 2025-11-12T19:18:06+01:00. Источник: invest-services/doc → Публикация: OrgBS09/invest-docs@main_
 
 
 ## (root)
@@ -10,6 +10,8 @@ _Автогенерация: 2025-11-12T18:48:13+01:00. Источник: invest
 - `README.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/README.md
 - `README.md.bak` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/README.md.bak
 - `STRUCTURE-CLEAN.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/STRUCTURE-CLEAN.md
+- `STRUCTURE-since-2025-11-05.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/STRUCTURE-since-2025-11-05.md
+- `STRUCTURE-system-since-2025-11-05.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/STRUCTURE-system-since-2025-11-05.md
 - `STRUCTURE.md.bak` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/STRUCTURE.md.bak
 
 ## adr

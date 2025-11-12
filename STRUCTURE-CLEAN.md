@@ -64,11 +64,16 @@ _Корни: /home/ubuntu/lab /home/ubuntu/services /etc/systemd/system /etc/cad
 2025-11-12 00:23 f /home/ubuntu/lab/personal/repos/personal-services/docs/projects/invest/how-to/00-start.md
 2025-11-12 00:25 f /home/ubuntu/lab/personal/repos/personal-services/repo-STRUCTURE.txt
 2025-11-12 11:38 f /home/ubuntu/lab/invest/repos/invest-services/doc/how-to/README.md
+2025-11-12 15:51 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_structure_since.sh
+2025-11-12 16:31 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_system_structure.sh
+2025-11-12 16:36 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_clean_structure.sh
 2025-11-12 16:43 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_structure_index.sh
-2025-11-12 18:15 f /home/ubuntu/lab/invest/repos/invest-services/doc/INDEX-RAW-LINKS.md
-2025-11-12 18:47 f /home/ubuntu/lab/invest/repos/invest-services/doc/STRUCTURE-CLEAN.md
-2025-11-12 18:47 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_clean_structure.sh
-2025-11-12 18:47 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_index_raw_links.sh
+2025-11-12 17:03 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_index_raw_links.sh
+2025-11-12 18:09 f /home/ubuntu/lab/invest/repos/invest-services/tools/gen_docs.sh
+2025-11-12 18:48 f /home/ubuntu/lab/invest/repos/invest-services/doc/INDEX-RAW-LINKS.md
+2025-11-12 19:17 f /home/ubuntu/lab/invest/repos/invest-services/doc/STRUCTURE-system-since-2025-11-05.md
+2025-11-12 19:18 f /home/ubuntu/lab/invest/repos/invest-services/doc/STRUCTURE-CLEAN.md
+2025-11-12 19:18 f /home/ubuntu/lab/invest/repos/invest-services/doc/STRUCTURE-since-2025-11-05.md
 ```
 
 ## /home/ubuntu/services
@@ -231,4 +236,4 @@ xrdp
 xubuntu-desktop
 ```
 
-_Сгенерировано: 2025-11-12T18:48:13+01:00 — host: klichevs3.oblaka.tech_
+_Сгенерировано: 2025-11-12T19:18:06+01:00 — host: klichevs3.oblaka.tech_
