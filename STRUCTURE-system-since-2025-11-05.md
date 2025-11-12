@@ -1,0 +1,49 @@
+# SYSTEM STRUCTURE — changed since 2025-11-05
+
+_Системные зоны: /etc/systemd/system, /etc/caddy, /etc/cron.d (/etc/crontab), /usr/local/bin._
+
+## /etc/systemd/system
+```text
+2025-11-11 19:38  d  /etc/systemd/system
+2025-11-07 21:52  d  /etc/systemd/system/pf_invest_webhook-lab.service.d
+2025-11-08 00:44  f  /etc/systemd/system/pf_invest_webhook-lab.service.d/env.conf
+2025-11-11 17:23  d  /etc/systemd/system/timers.target.wants
+2025-11-11 17:23  l  /etc/systemd/system/timers.target.wants/git-autopush@home-ubuntu-lab-personal-repos-personal\x2dservices.timer
+2025-11-11 19:37  f  /etc/systemd/system/git-autopush@.env
+2025-11-11 17:49  f  /etc/systemd/system/git-autopush@.timer
+2025-11-06 23:34  d  /etc/systemd/system/multi-user.target.wants
+2025-11-06 18:10  l  /etc/systemd/system/multi-user.target.wants/pf_invest_webhook-lab.service
+2025-11-05 15:00  l  /etc/systemd/system/multi-user.target.wants/pf_personal_webhook-lab.service
+2025-11-07 18:40  f  /etc/systemd/system/pf_invest_webhook-lab.service
+2025-11-11 18:06  f  /etc/systemd/system/git-autopush@.timer.bak
+2025-11-11 18:49  d  /etc/systemd/system/default.target.wants
+2025-11-11 18:49  l  /etc/systemd/system/default.target.wants/ssh-agent.service
+2025-11-07 12:58  f  /etc/systemd/system/pf_invest_webhook-lab.service.bak.1762537237
+2025-11-06 13:37  f  /etc/systemd/system/invest-vs-dedupe.service
+2025-11-11 18:47  f  /etc/systemd/system/ssh-agent.service
+2025-11-05 19:09  f  /etc/systemd/system/pf_personal_webhook-lab.service
+2025-11-11 18:06  f  /etc/systemd/system/git-autopush@.service.bak
+2025-11-11 21:48  f  /etc/systemd/system/git-autopush@.service
+2025-11-06 13:37  f  /etc/systemd/system/invest-vs-dedupe.timer
+```
+
+## /etc/caddy
+```text
+2025-11-06 19:10  d  /etc/caddy
+2025-11-07 13:47  d  /etc/caddy/sites-enabled
+2025-11-07 13:35  f  /etc/caddy/sites-enabled/dashboard.debet.credit.caddy.bak.1762518910
+2025-11-07 13:47  f  /etc/caddy/sites-enabled/dashboard.debet.credit.caddy
+2025-11-07 13:47  f  /etc/caddy/sites-enabled/dashboard.debet.credit.caddy.bak.1762519657
+2025-11-06 19:10  f  /etc/caddy/Caddyfile
+```
+
+## /etc/cron.d
+```text
+```
+
+## /usr/local/bin
+```text
+2025-11-11 12:52  d  /usr/local/bin
+```
+
+_Сгенерировано: 2025-11-12T16:31:09+01:00 — host: klichevs3.oblaka.tech_
