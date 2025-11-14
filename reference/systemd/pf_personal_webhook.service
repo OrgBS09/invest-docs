@@ -1,0 +1,13 @@
+[Unit]
+Description=Planfix Webhook (Personal, ross)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/personal
+EnvironmentFile=/home/ubuntu/personal/env/.env.personal
+ExecStart=/home/ubuntu/personal/venv/bin/python apps/pf_webhook/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

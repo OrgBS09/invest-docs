@@ -1,0 +1,17 @@
+[Unit]
+Description=PF Personal Webhook (LAB)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/lab/personal/scratch/2025-11-05-pf-webhook
+EnvironmentFile=-/home/ubuntu/lab/personal/env/.env.personal
+ExecStart=/home/ubuntu/lab/personal/venv/bin/python /home/ubuntu/lab/personal/scratch/2025-11-05-pf-webhook/app_dev.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+

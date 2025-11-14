@@ -1,0 +1,11 @@
+# invest-vs-dedupe.service
+[Unit]
+Description=Invest LAB VS dedupe
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+EnvironmentFile=/home/ubuntu/lab/invest/env/.env.invest.lab
+ExecStart=/home/ubuntu/lab/invest/venv/bin/python /home/ubuntu/lab/invest/tools/vs_dedupe.py
+

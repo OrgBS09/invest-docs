@@ -1,0 +1,13 @@
+[Unit]
+Description=OA Proxy (Accounting)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/accounting
+EnvironmentFile=/home/ubuntu/accounting/env/.env.accounting
+ExecStart=/home/ubuntu/accounting/venv/bin/python apps/oa_proxy/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

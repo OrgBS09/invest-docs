@@ -1,0 +1,6 @@
+{
+  servers :443 {
+    protocols h1 h2
+  }
+}
+import /etc/caddy/sites-enabled/*.caddy

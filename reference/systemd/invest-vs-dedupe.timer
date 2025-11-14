@@ -1,0 +1,12 @@
+# invest-vs-dedupe.timer
+[Unit]
+Description=Run VS dedupe hourly
+
+[Timer]
+OnBootSec=5m
+OnUnitActiveSec=1h
+Unit=invest-vs-dedupe.service
+
+[Install]
+WantedBy=timers.target
+

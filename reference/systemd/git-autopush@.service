@@ -1,0 +1,28 @@
+[Unit]
+Description=Auto commit & push in %f
+
+[Service]
+User=ubuntu
+Type=oneshot
+WorkingDirectory=/%f
+Environment=HOME=/home/ubuntu
+Environment=LOG_FILE=/home/ubuntu/git-autopush.log
+ExecStart=/bin/bash -c '\
+  LOG_FILE=/home/ubuntu/git-autopush.log; \
+  echo "=== git-autopush START $(date) ===" | tee -a $LOG_FILE >&2 || true; \
+  if [ ! -d .git ]; then echo "ERROR: no .git" | tee -a $LOG_FILE >&2 || true; exit 1; fi; \
+  git add -A >/dev/null 2>&1 || { echo "ERROR: git add failed" | tee -a $LOG_FILE >&2 || true; exit 1; }; \
+  if git diff --cached --quiet; then \
+    echo "No changes to commit" | tee -a $LOG_FILE >&2 || true; \
+  else \
+    git commit -m "auto: $(date -Iseconds)" >/dev/null 2>&1 || { echo "ERROR: commit failed" | tee -a $LOG_FILE >&2 || true; exit 1; }; \
+    if git push origin HEAD >/dev/null 2>&1; then \
+      echo "SUCCESS: pushed!" | tee -a $LOG_FILE >&2 || true; \
+    else \
+      echo "ERROR: PUSH FAILED" | tee -a $LOG_FILE >&2 || true; \
+    fi; \
+  fi; \
+  echo "=== git-autopush END ===" | tee -a $LOG_FILE >&2 || true; \
+'
+StandardOutput=journal
+StandardError=journal

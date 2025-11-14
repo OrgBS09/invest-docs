@@ -1,0 +1,11 @@
+[Unit]
+Description=Run git-autopush for %f every 3 minutes
+
+[Timer]
+OnUnitActiveSec=3min
+AccuracySec=30s
+Persistent=true
+Unit=git-autopush@%i.service
+
+[Install]
+WantedBy=timers.target

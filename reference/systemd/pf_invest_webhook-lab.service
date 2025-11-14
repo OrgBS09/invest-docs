@@ -1,0 +1,18 @@
+[Unit]
+Description=PF Invest Webhook (LAB, FastAPI)
+After=network.target
+
+[Service]
+EnvironmentFile=/home/ubuntu/lab/invest/env/.env.invest.lab
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/lab/invest/apps/pf_invest_webhook_fastapi
+Environment=ENV_FILE=/home/ubuntu/lab/invest/env/.env.invest.lab
+ExecStart=/home/ubuntu/lab/invest/venv/bin/uvicorn app:app --host 127.0.0.1 --port 5010 --workers 1 --proxy-headers
+Restart=always
+RestartSec=2
+SyslogIdentifier=pf_invest_lab_fastapi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,6 +1,6 @@
 # INDEX — RAW ссылки на документы
 
-_Автогенерация: 2025-11-12T19:18:06+01:00. Источник: invest-services/doc → Публикация: OrgBS09/invest-docs@main_
+_Автогенерация: 2025-11-14T10:45:22+01:00. Источник: invest-services/doc → Публикация: OrgBS09/invest-docs@main_
 
 
 ## (root)
@@ -21,6 +21,7 @@ _Автогенерация: 2025-11-12T19:18:06+01:00. Источник: invest
 ## how-to
 
 - `how-to/README.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/how-to/README.md
+- `how-to/STRUCTURE-WORKFLOW.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/how-to/STRUCTURE-WORKFLOW.md
 
 ## project-notes
 
@@ -28,6 +29,21 @@ _Автогенерация: 2025-11-12T19:18:06+01:00. Источник: invest
 - `project-notes/COMMENT-2025-11-10.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/project-notes/COMMENT-2025-11-10.md
 - `project-notes/COMMENT-2025-11-12.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/project-notes/COMMENT-2025-11-12.md
 - `project-notes/NEXT.md` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/project-notes/NEXT.md
+
+## reference
+
+- `reference/caddy/Caddyfile` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/caddy/Caddyfile
+- `reference/systemd/git-autopush@.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/git-autopush@.service
+- `reference/systemd/git-autopush@.timer` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/git-autopush@.timer
+- `reference/systemd/invest-vs-dedupe.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/invest-vs-dedupe.service
+- `reference/systemd/invest-vs-dedupe.timer` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/invest-vs-dedupe.timer
+- `reference/systemd/invest_api.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/invest_api.service
+- `reference/systemd/oa_proxy.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/oa_proxy.service
+- `reference/systemd/pf_invest_webhook-lab.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/pf_invest_webhook-lab.service
+- `reference/systemd/pf_invest_webhook.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/pf_invest_webhook.service
+- `reference/systemd/pf_personal_webhook-lab.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/pf_personal_webhook-lab.service
+- `reference/systemd/pf_personal_webhook.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/pf_personal_webhook.service
+- `reference/systemd/ssh-agent.service` — https://raw.githubusercontent.com/OrgBS09/invest-docs/main/reference/systemd/ssh-agent.service
 
 ---
 _Генератор: /home/ubuntu/gen_index_raw_links.sh_

@@ -1,0 +1,13 @@
+[Unit]
+Description=Invest API (health)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/invest-services
+EnvironmentFile=/home/ubuntu/invest-services/env/.env.invest
+ExecStart=/usr/bin/python3 /home/ubuntu/invest-services/apps/invest_api/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
